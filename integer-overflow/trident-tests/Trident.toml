@@ -1,0 +1,12 @@
+[fuzz.metrics]
+enabled = true
+
+
+[[fuzz.programs]]
+address = "Gb1FA4kQRi5Ci2kChRbg2f8pTaqcutyAbCDciQxFQUf2"
+program = "../target/deploy/vulnerable.so"
+
+[[fuzz.programs]]
+address = "AFPFRXtPsmj21pQNQQQmsFBYjXbxAhyPDLby3DmU73X6"
+program = "../target/deploy/secure.so"
+ 

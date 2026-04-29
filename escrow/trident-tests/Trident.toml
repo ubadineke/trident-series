@@ -1,0 +1,17 @@
+[fuzz.metrics]
+enabled = true
+dashboard = true
+
+# [[fuzz.programs]]
+# address = "escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w"
+# program = "../target/deploy/escrow.so"
+
+[fuzz.regression]
+enabled = true
+
+[fuzz.coverage]
+enable = true
+server_port = 58432
+loopcount = 5
+format = "json"
+attach_extension = true

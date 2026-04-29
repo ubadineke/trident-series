@@ -1,0 +1,166 @@
+{
+  "custom_metrics": {},
+  "master_seed": "58cd1fd5bdda7fefbea85ae1534000b7dc1b703d4ce2c5818a5d3ca526fb182b",
+  "state_snapshots_hash": "",
+  "transactions": {
+    "Cancel": {
+      "custom_instruction_errors": {
+        "errors": {
+          "3012": {
+            "logs": [
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w invoke [1]",
+              "Program log: Instruction: CancelEscrow",
+              "Program log: AnchorError caused by account: escrow. Error Code: AccountNotInitialized. Error Number: 3012. Error Message: The program expected this account to be already initialized.",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w consumed 3070 of 1400000 compute units",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w failed: custom program error: 0xbc4"
+            ],
+            "occurrences": 882
+          },
+          "6000": {
+            "logs": [
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w invoke [1]",
+              "Program log: Instruction: CancelEscrow",
+              "Program log: AnchorError thrown in programs/escrow/src/lib.rs:68. Error Code: InvalidStatus. Error Number: 6000. Error Message: Invalid escrow status for this operation.",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w consumed 3210 of 1400000 compute units",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w failed: custom program error: 0x1770"
+            ],
+            "occurrences": 102
+          }
+        }
+      },
+      "transaction_failed": 986,
+      "transaction_invoked": 1336,
+      "transaction_panicked": 0,
+      "transaction_successful": 350,
+      "transactions_errors": {
+        "errors": {
+          "instruction spent from the balance of an account it does not own": {
+            "logs": [
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w invoke [1]",
+              "Program log: Instruction: CancelEscrow",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w consumed 2076 of 1400000 compute units",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w failed: instruction spent from the balance of an account it does not own"
+            ],
+            "occurrences": 2
+          }
+        }
+      },
+      "transactions_panics": {
+        "panics": {}
+      }
+    },
+    "Exchange": {
+      "custom_instruction_errors": {
+        "errors": {
+          "3012": {
+            "logs": [
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w invoke [1]",
+              "Program log: Instruction: Exchange",
+              "Program log: AnchorError caused by account: escrow. Error Code: AccountNotInitialized. Error Number: 3012. Error Message: The program expected this account to be already initialized.",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w consumed 2787 of 1400000 compute units",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w failed: custom program error: 0xbc4"
+            ],
+            "occurrences": 880
+          }
+        }
+      },
+      "transaction_failed": 880,
+      "transaction_invoked": 1329,
+      "transaction_panicked": 0,
+      "transaction_successful": 449,
+      "transactions_errors": {
+        "errors": {}
+      },
+      "transactions_panics": {
+        "panics": {}
+      }
+    },
+    "FundEscrow": {
+      "custom_instruction_errors": {
+        "errors": {
+          "3012": {
+            "logs": [
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w invoke [1]",
+              "Program log: Instruction: FundEscrow",
+              "Program log: AnchorError caused by account: escrow. Error Code: AccountNotInitialized. Error Number: 3012. Error Message: The program expected this account to be already initialized.",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w consumed 3085 of 1400000 compute units",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w failed: custom program error: 0xbc4"
+            ],
+            "occurrences": 891
+          },
+          "6003": {
+            "logs": [
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w invoke [1]",
+              "Program log: Instruction: FundEscrow",
+              "Program log: AnchorError thrown in programs/escrow/src/lib.rs:31. Error Code: InsufficientFunds. Error Number: 6003. Error Message: Insufficient funds.",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w consumed 4900 of 1400000 compute units",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w failed: custom program error: 0x1773"
+            ],
+            "occurrences": 118
+          }
+        }
+      },
+      "transaction_failed": 1115,
+      "transaction_invoked": 1367,
+      "transaction_panicked": 0,
+      "transaction_successful": 252,
+      "transactions_errors": {
+        "errors": {
+          "Transaction results in an account (2) with insufficient funds for rent": {
+            "logs": [
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w invoke [1]",
+              "Program log: Instruction: FundEscrow",
+              "Program 11111111111111111111111111111111 invoke [2]",
+              "Program 11111111111111111111111111111111 success",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w consumed 5761 of 1400000 compute units",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w success"
+            ],
+            "occurrences": 52
+          },
+          "Transaction results in an account (3) with insufficient funds for rent": {
+            "logs": [
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w invoke [1]",
+              "Program log: Instruction: FundEscrow",
+              "Program 11111111111111111111111111111111 invoke [2]",
+              "Program 11111111111111111111111111111111 success",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w consumed 5761 of 1400000 compute units",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w success"
+            ],
+            "occurrences": 54
+          }
+        }
+      },
+      "transactions_panics": {
+        "panics": {}
+      }
+    },
+    "InitializeEscrow": {
+      "custom_instruction_errors": {
+        "errors": {
+          "0": {
+            "logs": [
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w invoke [1]",
+              "Program log: Instruction: InitializeEscrow",
+              "Program 11111111111111111111111111111111 invoke [2]",
+              "Allocate: account Address { address: G7UPcFZ3v63FFdWmYVta4mWVo835DnTtDN3eBmENroxY, base: None } already in use",
+              "Program 11111111111111111111111111111111 failed: custom program error: 0x0",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w consumed 8217 of 1400000 compute units",
+              "Program escrWWM1M3eA87HpqPuy7g2jEqZudP413zUa1m4oA2w failed: custom program error: 0x0"
+            ],
+            "occurrences": 428
+          }
+        }
+      },
+      "transaction_failed": 428,
+      "transaction_invoked": 1370,
+      "transaction_panicked": 0,
+      "transaction_successful": 942,
+      "transactions_errors": {
+        "errors": {}
+      },
+      "transactions_panics": {
+        "panics": {}
+      }
+    }
+  }
+}
