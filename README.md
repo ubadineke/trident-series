@@ -1,6 +1,6 @@
 # Trident Fuzzing Series - YouTube Companion Repository
 
-Welcome to the companion repository for the **Trident Security & Fuzzing YouTube Playlist**! 
+Welcome to the companion repository for the **[Trident Security & Fuzzing YouTube Playlist](https://youtube.com/playlist?list=PL-sHswtXBpJM45XlydsPVieWG4SNnuQts&si=X-EA-ud5wRyWMAu3)**! 
 
 This codebase was specifically designed to provide developers with hands-on, replicable examples to follow along with the video series. The goal of this repository is to break down the mechanics of the Trident fuzzing framework in Solana and teach you how to write professional-grade fuzz tests for your smart contracts.
 

@@ -2,6 +2,10 @@
 
 This project is part of the **Trident Security & Fuzzing YouTube Playlist**.
 
+🎥 **Watch the associated videos for this module:**
+- [Live Fuzzing 1](https://youtu.be/sRNdlQtoH6s?si=PgSrXUsRoFj8nyJT)
+- [Live Fuzzing 2](https://youtu.be/Dg7nsUKWi7s?si=GBW72no5kqYcCPdY)
+
 ## Purpose
 
 The **Integer Overflow/Underflow** module acts as the introduction to writing regular fuzz tests with Trident. Before tackling complex multi-instruction states, it's essential to master the mechanics of building a fuzzer harness.

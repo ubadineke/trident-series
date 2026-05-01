@@ -2,6 +2,9 @@
 
 This project is part of the **Trident Security & Fuzzing YouTube Playlist**.
 
+🎥 **Watch the associated video for this module:**
+- [Writing Invariants](https://youtu.be/kRK31lOLnGo?si=vxjtx28qqtlQwlZI)
+
 ## Purpose
 
 The **Escrow Program** serves as our advanced testing playground. While basic fuzzing throws random numbers at single instructions, real-world smart contracts usually break when multiple state transitions interact in unexpected ways.
