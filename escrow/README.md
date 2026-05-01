@@ -16,3 +16,11 @@ We use this codebase in the series to teach:
 
 ## What You Will Learn
 In this module, you will learn how to identify state-transition bugs that would pass standard unit tests but fail under heavy, randomized execution sequences. You will see how invariants act as a force field around your core program logic.
+
+> **💡 Note:** The `programs/escrow/src/lib.rs` file is intentionally commented with obvious bugs to demonstrate how Trident catches them. 
+
+### Highlighted Invariants (`test_fuzz.rs`)
+The test harness (`test_fuzz.rs`) demonstrates three core types of invariants:
+1. **Conservation Invariant**: Ensures the recorded escrow amount strictly equals the initialized amount and is never arbitrarily overwritten during funding.
+2. **State Machine Invariant**: Verifies that the `Exchange` instruction strictly fails if the contract wasn't currently in the `Funded` state.
+3. **Authorization/Isolation Invariant**: Confirms that if a user other than the original depositor attempts to call the `Cancel` instruction, the state remains unchanged.
